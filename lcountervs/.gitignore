@@ -1,0 +1,14 @@
+.dart_tool/
+.idea/
+android/
+build/
+ios/
+linux/
+macos/
+test/
+web/
+windows/
+.metadata
+.analysis_options.yaml
+lcountervs.iml
+pubspec.lock

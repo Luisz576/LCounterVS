@@ -1,0 +1,1 @@
+typedef FunctionListener<T> = Function(T);
