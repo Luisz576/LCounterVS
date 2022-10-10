@@ -1,4 +1,4 @@
-import 'package:lcountervs/controller/value_controller.dart';
+import 'package:lcountervs/controllers/value_controller.dart';
 
 class User{
   final ValueController<int> life = ValueController(0), magic = ValueController(0);

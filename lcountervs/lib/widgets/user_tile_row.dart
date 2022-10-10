@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:lcountervs/controller/value_controller.dart';
+import 'package:lcountervs/interfaces/i_controller_listenable.dart';
 
 class UserTileRow extends StatefulWidget {
-  final ValueController<int> controller;
+  final IControllerListenable<int> controller;
   const UserTileRow({required this.controller, super.key});
 
   @override
