@@ -4,9 +4,8 @@ import 'package:lcountervs/widgets/user_tile_row.dart';
 
 
 class UserTile extends StatefulWidget {
-  final double? height;
   final bool flipped;
-  const UserTile({super.key, this.height, this.flipped = false});
+  const UserTile({super.key, this.flipped = false});
 
   @override
   State<UserTile> createState() => _UserTileState();
